@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>مركز الشفاء الطبي</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-ar="مركز الشفاء الطبي" data-en="Al-Shifa Medical Center">مركز الشفاء الطبي</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
@@ -16,14 +16,14 @@
 
   <!-- Header -->
   <header>
-    <div class="container">
+    <div class="container header-container">
       <h1 data-ar="مركز الشفاء الطبي" data-en="Al-Shifa Medical Center">مركز الشفاء الطبي</h1>
       <nav>
         <ul>
           <li><a href="#" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
-          <li><a href="#" data-ar="عن المركز" data-en="About">عن المركز</a></li>
-          <li><a href="#" data-ar="خدماتنا" data-en="Services">خدماتنا</a></li>
-          <li><a href="#" data-ar="اتصل بنا" data-en="Contact">اتصل بنا</a></li>
+          <li><a href="#about" data-ar="عن المركز" data-en="About">عن المركز</a></li>
+          <li><a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a></li>
+          <li><a href="#contact" data-ar="اتصل بنا" data-en="Contact">اتصل بنا</a></li>
         </ul>
       </nav>
     </div>
@@ -35,11 +35,60 @@
       <h2 data-ar="صحتك تهمنا" data-en="Your Health Matters">صحتك تهمنا</h2>
       <p data-ar="نقدم أفضل رعاية طبية شاملة في مكان واحد"
          data-en="We provide the best comprehensive medical care in one place">
-         نقدم أفضل رعاية طبية شاملة في مكان واحد
+        نقدم أفضل رعاية طبية شاملة في مكان واحد
       </p>
-      <a href="#" class="btn" data-ar="احجز موعدك الآن" data-en="Book Your Appointment">احجز موعدك الآن</a>
+      <a href="#contact" class="btn" data-ar="احجز موعدك الآن" data-en="Book Your Appointment">احجز موعدك الآن</a>
     </div>
   </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h3 data-ar="عن المركز" data-en="About Us">عن المركز</h3>
+      <p data-ar="مركز الشفاء الطبي هو مركز متكامل يقدم خدمات طبية عالية الجودة على يد نخبة من الأطباء المختصين."
+         data-en="Al-Shifa Medical Center is a comprehensive facility offering high-quality medical services by elite specialists.">
+        مركز الشفاء الطبي هو مركز متكامل يقدم خدمات طبية عالية الجودة على يد نخبة من الأطباء المختصين.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h3 data-ar="خدماتنا" data-en="Our Services">خدماتنا</h3>
+      <div class="service-cards">
+        <div class="card" data-ar="طب عام" data-en="General Medicine">طب عام</div>
+        <div class="card" data-ar="تحاليل طبية" data-en="Lab Tests">تحاليل طبية</div>
+        <div class="card" data-ar="أشعة وتشخيص" data-en="Imaging">أشعة وتشخيص</div>
+        <div class="card" data-ar="أسنان" data-en="Dentistry">أسنان</div>
+        <div class="card" data-ar="عيون" data-en="Ophthalmology">عيون</div>
+        <div class="card" data-ar="أمراض مزمنة" data-en="Chronic Diseases">أمراض مزمنة</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h3 data-ar="اتصل بنا" data-en="Contact Us">اتصل بنا</h3>
+      <form>
+        <input type="text" placeholder="الاسم الكامل" data-ar="الاسم الكامل" data-en="Full Name" />
+        <input type="tel" placeholder="رقم الهاتف" data-ar="رقم الهاتف" data-en="Phone Number" />
+        <textarea placeholder="رسالتك..." data-ar="رسالتك..." data-en="Your Message..."></textarea>
+        <button type="submit" class="btn" data-ar="إرسال" data-en="Send">إرسال</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p data-ar="© 2025 مركز الشفاء الطبي. جميع الحقوق محفوظة."
+         data-en="© 2025 Al-Shifa Medical Center. All rights reserved.">
+         © 2025 مركز الشفاء الطبي. جميع الحقوق محفوظة.
+      </p>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
