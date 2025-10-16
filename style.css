@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  transition: direction 0.3s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #008cba;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.btn {
+  background-color: #00b894;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.lang-switch {
+  text-align: center;
+  margin: 10px;
+}
+
+.lang-switch button {
+  padding: 5px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+}
