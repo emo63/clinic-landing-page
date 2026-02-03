@@ -1,141 +1,14 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>مركز الشفاء الطبي | Al-Shifa Medical Center</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <!-- Language Switcher -->
-  <div class="lang-switch">
-    <button id="arabicBtn" class="active">عربي</button>
-    <button id="englishBtn">English</button>
-  </div>
-
-  <!-- Header -->
-  <header>
-    <div class="container header-container">
-      <div class="logo" data-ar="مركز الشفاء الطبي" data-en="Al-Shifa Medical Center">مركز الشفاء الطبي</div>
-      <nav>
-        <ul>
-          <li><a href="#" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
-          <li><a href="#" data-ar="عن المركز" data-en="About">عن المركز</a></li>
-          <li><a href="#" data-ar="خدماتنا" data-en="Services">خدماتنا</a></li>
-          <li><a href="#" data-ar="اتصل بنا" data-en="Contact">اتصل بنا</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container hero-container">
-      <div class="hero-text">
-        <h1 data-ar="صحتك تهمنا" data-en="Your Health Matters">صحتك تهمنا</h1>
-        <p data-ar="نقدم أفضل رعاية طبية شاملة في مكان واحد"
-           data-en="We provide the best comprehensive medical care in one place">
-          نقدم أفضل رعاية طبية شاملة في مكان واحد
-        </p>
-        <a href="#" class="btn" data-ar="احجز موعدك الآن" data-en="Book Your Appointment">احجز موعدك الآن</a>
-      </div>
-      <div class="hero-image">
-        <img src="https://images.unsplash.com/photo-1580281657524-65f9dfe08b7e?auto=format&fit=crop&w=800&q=80" alt="Medical Center" />
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="about">
-    <div class="container">
-      <h2 data-ar="عن المركز" data-en="About Us">عن المركز</h2>
-      <p data-ar="مركز الشفاء الطبي هو مركز متكامل يقدم خدمات طبية شاملة ومتخصصة بأعلى جودة واهتمام."
-         data-en="Al-Shifa Medical Center is a comprehensive facility providing specialized medical services with highest quality and care.">
-        مركز الشفاء الطبي هو مركز متكامل يقدم خدمات طبية شاملة ومتخصصة بأعلى جودة واهتمام.
-      </p>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section class="services">
-    <div class="container">
-      <h2 data-ar="خدماتنا" data-en="Our Services">خدماتنا</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="icon">🩺</div>
-          <h3 data-ar="طب عام" data-en="General Medicine">طب عام</h3>
-        </div>
-        <div class="service-card">
-          <div class="icon">💉</div>
-          <h3 data-ar="تحاليل" data-en="Lab Tests">تحاليل</h3>
-        </div>
-        <div class="service-card">
-          <div class="icon">🧠</div>
-          <h3 data-ar="أشعة" data-en="Radiology">أشعة</h3>
-        </div>
-        <div class="service-card">
-          <div class="icon">🦷</div>
-          <h3 data-ar="أسنان" data-en="Dentistry">أسنان</h3>
-        </div>
-        <div class="service-card">
-          <div class="icon">👁️</div>
-          <h3 data-ar="عيون" data-en="Ophthalmology">عيون</h3>
-        </div>
-        <div class="service-card">
-          <div class="icon">❤️</div>
-          <h3 data-ar="متابعة الأمراض المزمنة" data-en="Chronic Disease Care">متابعة الأمراض المزمنة</h3>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section class="testimonials">
-    <div class="container">
-      <h2 data-ar="آراء المرضى" data-en="Patient Testimonials">آراء المرضى</h2>
-      <blockquote>
-        <p data-ar="د. محمد ممتاز، فريق عمل متعاون وخدمات ممتازة!" data-en="Dr. Mohamed is excellent, very cooperative team and excellent services!">
-          د. محمد ممتاز، فريق عمل متعاون وخدمات ممتازة!
-        </p>
-        <cite>— سارة أحمد</cite>
-      </blockquote>
-    </div>
-  </section>
-
-  <!-- Contact Form Section -->
-  <section class="contact">
-    <div class="container">
-      <h2 data-ar="اتصل بنا" data-en="Contact Us">اتصل بنا</h2>
-      <form id="contactForm">
-        <label for="name" data-ar="الاسم الكامل" data-en="Full Name">الاسم الكامل</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="phone" data-ar="رقم الهاتف" data-en="Phone Number">رقم الهاتف</label>
-        <input type="tel" id="phone" name="phone" required />
-
-        <label for="message" data-ar="رسالتك" data-en="Your Message">رسالتك</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit" class="btn" data-ar="إرسال" data-en="Send">إرسال</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container footer-container">
-      <div class="contact-info">
-        <p data-ar="العنوان: شارع الصحة، المدينة" data-en="Address: Health St., City">العنوان: شارع الصحة، المدينة</p>
-        <p data-ar="هاتف: 0123456789" data-en="Phone: 0123456789">هاتف: 0123456789</p>
-        <p data-ar="البريد الإلكتروني: info@alshifa.com" data-en="Email: info@alshifa.com">البريد الإلكتروني: info@alshifa.com</p>
-      </div>
-      <div class="footer-links">
-        <a href="#" data-ar="سياسة الخصوصية" data-en="Privacy Policy">سياسة الخصوصية</a>
-        <a href="#" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my-landing-page</title>
+    <script type="module" crossorigin src="./assets/index-CMPYMnrz.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Hw7SGaAr.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
